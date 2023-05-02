@@ -8,8 +8,8 @@ return (
         <div className='resume-title'>Professional Resume</div>
         <Link to="/resumepdf">
         <img
-          src="https://bobbyhadz.com/images/blog/react-usestate-dynamic-key/thumbnail.webp"
-          alt="Resume in PDF"
+          src="https://drive.google.com/file/d/1nUMXnpkaA3UK8QftjoPk-Wnb_meeyC1U/view?usp=sharing"
+          alt="Mary Yang Resume PDF"
         />
         <FontAwesomeIcon icon="fa-solid fa-paper-plane" size="xs" />
       </Link>
