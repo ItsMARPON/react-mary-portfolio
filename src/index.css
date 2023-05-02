@@ -1,23 +1,27 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.App-pic {
+  width: 100%;
+  object-fit: cover;
+}
 
-.header{
+.header {
   background-color: crimson;
   height: 200px;
 }
 
-.header>h1 {
+.header > h1 {
   margin: 0;
   padding-top: 75px;
   text-align: center;
@@ -25,15 +29,34 @@ code {
   font-size: 3rem;
 }
 
-.footer{
+.footer {
   background-color: white;
   height: 200px;
 }
 
-.footer>h3 {
+.footer > h3 {
   margin: 0;
   padding-top: 75px;
   text-align: center;
   color: rgb(16, 15, 15);
   font-size: 3rem;
+}
+
+.card-container {
+  position: relative;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 250px;
+}
+
+.card-title {
+  color: aliceblue;
+  font-size: 3rem;
+}
+
+.card-desc {
+  color: blueviolet;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
