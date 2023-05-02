@@ -1,4 +1,4 @@
-import pic from './profile.png';
+import pic from './assets/images/profile.png';
 import PortfolioContainer from "./pages/PortfolioContainer";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
