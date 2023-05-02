@@ -3,6 +3,7 @@ import PortfolioContainer from "./pages/PortfolioContainer";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import Card from "./components/Card";
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       </header>
       <Navbar />
       <PortfolioContainer />
+      <Card />
       <Footer />
     </div>
   );
