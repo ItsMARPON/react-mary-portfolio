@@ -1,5 +1,6 @@
 import pic from './assets/images/profile.png';
 import PortfolioContainer from "./pages/PortfolioContainer";
+import ProjectList from "./components/ProjectList";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -15,6 +16,7 @@ function App() {
       </header>
       <Navbar />
       <PortfolioContainer />
+      <ProjectList />
       <Card />
       <Footer />
     </div>

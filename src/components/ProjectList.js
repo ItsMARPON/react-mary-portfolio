@@ -8,8 +8,9 @@ import img6 from '../assets/images/cs-regex-github-gist1.png';
 import img7 from '../assets/images/module12-cms1.png';
 import img8 from '../assets/images/module12-cms-intro.png';
 import img9 from '../assets/images/module13-Insomnia1.png';
+import ProjectItem from './ProjectItem';
 
-const project = [
+const projects = [
     {
         githubUrl: 'https://github.com/ItsMARPON/broker-exchange-prj2',
         id: 145,
@@ -48,18 +49,11 @@ const project = [
     },
 ]
 
-function Projectlist(project){
+function Projectlist(){
+
     return (
-        <div className='list-item'>
-            <div className='content'></div>
-            <a className='list-header'
-            href={project.title}
-            target="_blank"
-            rel='noreferrer'
-            >
-              {project.img}  
-            </a>
-            <div className='project-githubUrl'>{project.githubUrl}</div>
+        <div className='list-items'>
+            {projects.map((project)=> <ProjectItem project={project} />)}
         </div>
     )
 }
