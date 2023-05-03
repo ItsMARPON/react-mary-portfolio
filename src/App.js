@@ -16,8 +16,9 @@ function App() {
       </header>
       <Navbar />
       <PortfolioContainer />
+      <Card>
       <ProjectList />
-      <Card />
+      </Card>
       <Footer />
     </div>
   );
