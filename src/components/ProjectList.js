@@ -52,7 +52,7 @@ const projects = [
 function Projectlist() {
   return (
     <div className="list-items">
-      {projects.map((project) => (<ProjectItem project={project} />))}
+      {projects.map((project) => <ProjectItem project={project} key={project.id}/>)}
     </div>
   );
 }

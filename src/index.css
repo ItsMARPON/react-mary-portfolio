@@ -1,3 +1,4 @@
+/* ------------------Top of the Page ------------------*/
 
 .header {
   background-color: rgb(172, 28, 57);
@@ -12,11 +13,13 @@
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/*------------------ Home Page About Me Section------------------*/
+
 .about-me-container{
-  display: block;
   background-color: beige;
   justify-content: center;
-  display: block;
+
 }
 
 .about-me-title{
@@ -27,9 +30,8 @@ text-align: center;
 .pic-header{
   max-width: 15%;
   max-height: 15%;
-  display: block;
   text-align: center;
-  margin-left: 42%;
+  margin-left: 43%;
 }
 
 .app-pic{
@@ -39,10 +41,12 @@ text-align: center;
 }
 
 .about-me-desc >p{
-  margin-top: 25px;
   padding: 50px 50px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/* ------------------Navagation Bar ------------------*/
+
 .nav-container{
   background-color: rgb(63, 62, 62);
   color: black;
@@ -51,41 +55,81 @@ text-align: center;
   cursor: pointer;
 }
 
-.card-container {
-  position: relative;
+/*------------------Portfolio Page------------------ */
+
+.p-container{
+  display: inline-block;
+  flex-direction: column;
+}
+.list-item-card {
+  cursor: pointer;
+  flex-wrap: wrap;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: black;
-  border-radius: 10px;
-  overflow: hidden;
-  height: 250px;
+  border-radius: 50px;
+  width: 50%;
+  height: 400px;
+  background-image: linear-gradient(
+    rgba(237, 121, 121, 0.3) 0%,
+    rgba(12, 0, 248, 0.86) 100%)
 }
 
-.card-title {
-  color: rgb(50, 138, 215);
-  font-size: 3rem;
+.project-title{
+  padding-top: 10%;
+  position:relative;
+  text-align: center;
+  font-size: x-large;
 }
 
-.card-desc {
-  color: blueviolet;
-  font-size: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.project-links{
+  position:relative;
+  text-align: center;
+  font-size: medium;
 }
+
+.list-item-card >img{
+  display: flex;
+  margin: auto;
+  border: 5px solid rgb(176, 1, 1);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Contact Page */
 
 .form-container{
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 50px;
-  padding: 100px 100px;
+  padding: 100px 350px;
   background-color: rgb(169, 167, 167);
 }
 
+/* ----------------Resume Page------------------ */
+
+.resume-container{
+  text-align: center;
+  height: 450px;
+  background-color: rgb(237, 237, 243);
+  padding: 100px; 
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.3) 0%,
+    rgb(246, 240, 132) 105%)
+}
+.resume-title {
+  padding: 25px 25px;
+  font-size: 40px;
+}
+
+.resume-container >a {
+  font-size: 35px;
+  cursor: pointer;
+}
 
 .footer {
   background-color: rgb(246, 240, 132);
   width: 100%;
   text-align: center;
   height: 150px;
-  width: 100%;
   justify-content: center;
-  margin: 0;
   padding-top: 50px;
   color: rgb(16, 15, 15);
 }

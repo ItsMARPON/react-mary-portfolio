@@ -5,12 +5,12 @@ import { faCoffee} from "@fortawesome/free-solid-svg-icons";
 function Resume(){
 return (
     <div className='resume-container'>
-        <div className='resume-title'>Professional Resume</div>
-        <FontAwesomeIcon icon={faCoffee} size="xs" />
+        <h2 className='resume-title'>Professional Resume</h2>
+        <FontAwesomeIcon icon={faCoffee} size="xl" />
         <a href='https://drive.google.com/file/d/1nUMXnpkaA3UK8QftjoPk-Wnb_meeyC1U/view?usp=sharing'
           alt="Mary Yang Resume PDF"
-        >View My Resume</a>
-        <FontAwesomeIcon icon={faCoffee} size="xs" />
+        > Click To View My Resume </a>
+        <FontAwesomeIcon icon={faCoffee} size="xl" />
     </div>
 )
 
