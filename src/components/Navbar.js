@@ -2,9 +2,9 @@ import Nav from 'react-bootstrap/Nav';
 
 function Navbar({currentPage, handlePageChange}) {
   return (
-    <Nav variant="tabs" defaultActiveKey="/abouthome">
+    <Nav variant="tabs" defaultActiveKey="/home">
       <Nav.Item>
-        <Nav.Link href="/abouthome" onClick={() => handlePageChange('Home')}>Home</Nav.Link>
+        <Nav.Link href="/home" onClick={() => handlePageChange('Home')}>Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link eventKey="/portfolio" onClick={() => handlePageChange('Portfolio')}>Portfolio</Nav.Link>
