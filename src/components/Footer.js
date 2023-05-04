@@ -8,19 +8,19 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="githubIcon">
-        <FontAwesomeIcon icon={faGithub} />
+        <FontAwesomeIcon icon={faGithub} size="small"/>
         <a href="https://github.com/ItsMARPON" alt="Github site">
           My Github Link
         </a>
       </div>
       <div className="linkedinIcon">
-        <FontAwesomeIcon icon={faLinkedin} />
+        <FontAwesomeIcon icon={faLinkedin} size="small"/>
         <a href="https://www.linkedin.com/in/maryyangytio" alt="LinkedIn site">
           My LinkedIn Profile Link
         </a>
       </div>
       <div className="copyright">
-        <h3>Copyright <FontAwesomeIcon icon={faCopyright}/> Mary Yang</h3>
+        <h3>Copyright <FontAwesomeIcon icon={faCopyright} size="small"/> Mary Yang</h3>
       </div>
     </footer>
   );
