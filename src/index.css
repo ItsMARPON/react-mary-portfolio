@@ -61,6 +61,12 @@ text-align: center;
   display: inline-block;
   flex-direction: column;
 }
+.list-items{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
 .list-item-card {
   cursor: pointer;
   flex-wrap: wrap;
@@ -71,7 +77,8 @@ text-align: center;
   height: 400px;
   background-image: linear-gradient(
     rgba(237, 121, 121, 0.3) 0%,
-    rgba(12, 0, 248, 0.86) 100%)
+    rgba(12, 0, 248, 0.86) 100%);
+    width: 400px;
 }
 
 .project-title{
