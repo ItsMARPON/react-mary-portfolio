@@ -5,7 +5,7 @@ function Contact() {
     <Form className='form-container'>
       <Form.Group className="mb-3" controlId="form-name">
         <Form.Label>Your Full Name</Form.Label>
-        <Form.Control type="name" placeholder="First Middle Last" />
+        <Form.Control type="name" placeholder="First Last" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="form-email">
         <Form.Label>Email:</Form.Label>
