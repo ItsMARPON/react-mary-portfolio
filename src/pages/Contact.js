@@ -2,7 +2,7 @@ import Form from 'react-bootstrap/Form';
 
 function Contact() {
   return (
-    <Form>
+    <Form className='form-container'>
       <Form.Group className="mb-3" controlId="form-name">
         <Form.Label>Your Full Name</Form.Label>
         <Form.Control type="name" placeholder="first middle last name" />
