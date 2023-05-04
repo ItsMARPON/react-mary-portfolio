@@ -1,7 +1,7 @@
 import React from "react";
 import pic from "../assets/images/profile.png";
 
-export default function Home() {
+function Home() {
   return (
     <div className="about-me">
       <h1>About Me</h1>
@@ -29,3 +29,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

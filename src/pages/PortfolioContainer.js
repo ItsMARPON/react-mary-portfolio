@@ -6,7 +6,7 @@ import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 
 function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("AboutHome");
+  const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
     if (currentPage === "Home") {
