@@ -78,7 +78,6 @@ const handleFormSubmit = async (e) => {
           placeholder="comment"
           />
         <Form.Control as="textarea" rows={3} placeholder='Feedback or Questions are appreciated'/>
-        <button className='btn btn-primary'>Submit</button>
       </Form.Group>
       <button type='button' onClick={handleFormSubmit}>Submit</button>
       </form>
