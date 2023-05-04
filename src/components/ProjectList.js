@@ -1,11 +1,11 @@
 import React from 'react';
 import img1 from '../assets/images/brokerexchange-homepage1.png';
 import img2 from '../assets/images/sevenWonders1.png';
-import img3 from '../assets/images/sevenWondersHomepageResized.png';
+// import img3 from '../assets/images/sevenWondersHomepageResized.png';
 import img4 from '../assets/images/nosql-socialnetwork-mongodbusers2.png';
-import img5 from '../assets/images/nosql-socialnetwork-mongodbthoughts1.png';
+// import img5 from '../assets/images/nosql-socialnetwork-mongodbthoughts1.png';
 import img6 from '../assets/images/cs-regex-github-gist1.png';
-import img7 from '../assets/images/module12-cms1.png';
+// import img7 from '../assets/images/module12-cms1.png';
 import img8 from '../assets/images/module12-cms-intro.png';
 import img9 from '../assets/images/module13-Insomnia1.png';
 import ProjectItem from './ProjectItem';
@@ -21,13 +21,13 @@ const projects = [
         githubUrl: 'https://github.com/ItsMARPON/seven-wonders-prj1',
         id: 167,
         title: 'Seven Wonders of the World for 2023',
-        img: {img2, img3},
+        img: {img2},
     },
     {
         githubUrl: 'https://github.com/ItsMARPON/nosql-social-network-api',
         id: 199,
         title: 'NoSQL Social Network API (Backend)',
-        img: {img4, img5},
+        img: {img4},
     },
     {
         githubUrl: 'https://github.com/ItsMARPON/cs-regex-tutorial',
@@ -39,7 +39,7 @@ const projects = [
         githubUrl: 'https://github.com/ItsMARPON/cms-mysql-employee-db',
         id: 236,
         title: 'MySQL2 Content Management Systems (CMS) Employee Tracker',
-        img: {img8, img7},
+        img: {img8},
     },
     {
         githubUrl: 'https://github.com/ItsMARPON/orm-ecommerce-website',
