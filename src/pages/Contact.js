@@ -14,6 +14,7 @@ function Contact() {
       <Form.Group className="mb-3" controlId="form-Textarea1">
         <Form.Label>textarea</Form.Label>
         <Form.Control as="textarea" rows={3} />
+        <button className='btn btn-primary'>Submit</button>
       </Form.Group>
     </Form>
   );
