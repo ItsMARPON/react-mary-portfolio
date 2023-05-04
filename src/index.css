@@ -1,32 +1,28 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-.App-pic {
-  width: 100%;
-  object-fit: cover;
-}
+} */
 
 .header {
   background-color: crimson;
   height: 200px;
-}
-
-.header > h1 {
   margin: 0;
-  padding-top: 75px;
-  text-align: center;
-  color: white;
+  padding-top: 60px;
+  justify-content:space-between;
+  gap: 25px;
   font-size: 3rem;
+}
+.header-title{
+  color: white;
 }
 
 .footer {
@@ -56,7 +52,7 @@ code {
 }
 
 .card-title {
-  color: aliceblue;
+  color: rgb(50, 138, 215);
   font-size: 3rem;
 }
 

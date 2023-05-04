@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
-import AboutHome from "./AboutHome";
+import Home from "./Home";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
@@ -9,8 +9,8 @@ function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("AboutHome");
 
   const renderPage = () => {
-    if (currentPage === "AboutHome") {
-      return <AboutHome />;
+    if (currentPage === "Home") {
+      return <Home />;
     }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
