@@ -79,7 +79,7 @@
     rgba(237, 121, 121, 0.3) 0%,
     rgba(12, 0, 248, 0.86) 100%
   );
-  width: 400px;
+  width: 500px;
 }
 
 .project-title {
@@ -115,22 +115,39 @@
 /* ----------------Resume Page------------------ */
 
 .resume-container {
-  text-align: center;
-  height: 450px;
+  /* text-align: center; */
+  height:auto;
   background-color: rgb(237, 237, 243);
-  padding: 100px;
+  padding: 50px;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.3) 0%,
     rgb(246, 240, 132) 105%
   );
 }
+.resume-container > p{
+  font-family: sans-serif;
+  font-size: large;
+}
+.frontend-list{
+  border-radius: 100px;
+  font-size: 20px;
+}
+
+.proficiencies {
+  font-size: 29px;
+}
+
+.backend-list{
+  border-radius: 100px;
+  font-size: 20px;
+}
 .resume-title {
   padding: 25px 25px;
-  font-size: 40px;
+  font-size: 29px;
 }
 
 .resume-container > a {
-  font-size: 35px;
+  font-size: 20px;
   cursor: pointer;
 }
 
