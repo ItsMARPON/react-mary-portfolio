@@ -1,7 +1,8 @@
+// Required for Header.js to work properly
 import React from 'react';
 import '../index.css';
 
-
+// This function is a Header component that will be imported into App.js
 
 function Header(){
     return (

@@ -26,6 +26,7 @@ Install @fortawesome/free-regular-svg-icons <br />
 
 
 ## Usage<a name="usage"></a>
+![Screenshot of Portfolio Deployed URL](./src/assets/images/portfolio-app1.png)<br />
 
 In the command line of GitBash or Powershell, type the following to begin the React App:<br />
 npm start

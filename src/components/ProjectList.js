@@ -1,15 +1,14 @@
+// Required for Projectlist to work properly
 import React from "react";
 import img1 from "../assets/images/brokerexchange-homepage1.png";
 import img2 from "../assets/images/sevenWonders1.png";
-// import img3 from '../assets/images/sevenWondersHomepageResized.png';
 import img4 from "../assets/images/nosql-socialnetwork-mongodbusers2.png";
-// import img5 from '../assets/images/nosql-socialnetwork-mongodbthoughts1.png';
 import img6 from "../assets/images/cs-regex-github-gist1.png";
-// import img7 from '../assets/images/module12-cms1.png';
 import img8 from "../assets/images/module12-cms-intro.png";
 import img9 from "../assets/images/module13-Insomnia1.png";
 import ProjectItem from "./ProjectItem";
 
+// Creating an array of projects to be iterated through .map()
 const projects = [
   {
     githubUrl: "https://github.com/ItsMARPON/broker-exchange-prj2",
@@ -49,6 +48,7 @@ const projects = [
   },
 ];
 
+// Use .map to iterate through projects
 function Projectlist() {
   return (
     <div className="list-items">

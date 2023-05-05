@@ -3,12 +3,14 @@ import Button from "react-bootstrap/Button";
 import React, { useState } from "react";
 import { validEmail } from "../utils/helpers";
 
+// Using Reacts useState to set variables
 function Contact() {
   const [email, setEmail] = useState("");
   const [fullName, setFullName] = useState("");
   const [textarea, setTextarea] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
+  // Based on the user's input, this function will set the value
   const handleInputChange = (e) => {
     const inputType = e.target.name;
     const inputValue = e.target.value;
@@ -22,6 +24,7 @@ function Contact() {
     }
   };
 
+  // This function will habdke the validation for email, name, and text area
   const handleFormSubmit = async (e) => {
     e.preventDefault();
 

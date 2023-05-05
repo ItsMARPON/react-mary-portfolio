@@ -1,5 +1,7 @@
+// Required for ProjectItem to work properly
 import React from "react";
 
+// This function is to use Reacts props to get to objects. It will be imported into the ProjectList.js
 function ProjectItem({ project }) {
   return (
     <div className="list-item-card">
