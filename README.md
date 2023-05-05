@@ -27,7 +27,8 @@ Install @fortawesome/free-regular-svg-icons <br />
 
 ## Usage<a name="usage"></a>
 
-In the commandline, enter npm start
+In the command line of GitBash or Powershell, type the following to begin the React App:<br />
+npm start
 
 ## Credits<a name="credits"></a>
 
