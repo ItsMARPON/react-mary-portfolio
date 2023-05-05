@@ -1,75 +1,96 @@
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import React, {useState} from 'react';
-import { validEmail } from '../utils/helpers';
-
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import React, { useState } from "react";
+import { validEmail } from "../utils/helpers";
 
 function Contact() {
+  const [email, setEmail] = useState("");
+  const [fullName, setFullName] = useState("");
+  const [textarea, setTextarea] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
-const [email, setEmail] = useState('');
-const [fullName, setFullName] = useState('')
-const [comment, setComment] = useState('');
-const [errorMessage, setErrorMessage] = useState('');
+  const handleInputChange = (e) => {
+    const inputType = e.target.name;
+    const inputValue = e.target.value;
 
-const handleInputChange =(e) => {
-  const {target} =e;
-  const inputType = target.name;
-  const inputValue = target.value;
+    if (inputType === "email") {
+      setEmail(inputValue);
+    } else if (inputType === "fullName") {
+      setFullName(inputValue);
+    } else {
+      setTextarea(inputValue);
+    }
+  };
 
-  if(inputType === 'email'){
-    setEmail(inputValue);
-  } else if (inputType === 'fullname') {
-    setFullName(inputValue);
-  } else{
-    setComment(inputValue);
-  }
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
 
-};
+    if (!validEmail(email)) {
+      setErrorMessage("Email is invalid");
+      return;
+    }
+    if (!fullName) {
+      setErrorMessage("Name must be provided");
+      return;
+    }
+    if (!textarea) {
+      setErrorMessage("Message cannot be blank");
+      return;
+    }
 
-const handleFormSubmit = async (e) => {
-  e.preventDefault();
+    alert(`Hello ${fullName}, thank you for submitting a message`);
 
-  if(!validEmail(email) || !fullName){
-    setErrorMessage('Email or FullName is invalid');
-    return;
-  }
-  if(!comment){
-    setErrorMessage('Comment cannot be blank');
-    return;
-  }
-  alert(`Hello ${fullName}`);
-
-  setFullName('');
-  setEmail('');
-  setComment('');
+    setFullName("");
+    setEmail("");
+    setTextarea("");
   };
 
   return (
-    <Form className='form-container'>
+    <Form className="form-container">
       <Form.Group className="mb-3" controlId="form-name">
         <Form.Label>Your Full Name</Form.Label>
-        <Form.Control type="text" onChange={handleInputChange} placeholder="First Last" required/>
+        <Form.Control
+          type="text"
+          value={fullName}
+          name="fullName"
+          onChange={handleInputChange}
+          placeholder="First Last"
+          required
+        />
       </Form.Group>
       <Form.Group className="mb-3" controlId="form-email">
         <Form.Label>Email:</Form.Label>
-        <Form.Control type="email" onChange={handleInputChange} placeholder="name@example.com" required/>
+        <Form.Control
+          type="email"
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          placeholder="name@example.com"
+          required
+        />
       </Form.Group>
       <Form.Group className="mb-3" controlId="form-Textarea1">
-        <Form.Label>Comments:</Form.Label>
-        <Form.Control as="textarea" rows={3} onChange={handleInputChange} placeholder='Feedback or Questions are appreciated' required/>
+        <Form.Label>Message:</Form.Label>
+        <Form.Control
+          as="textarea"
+          rows={3}
+          value={textarea}
+          name="textarea"
+          onChange={handleInputChange}
+          placeholder="Feedback or Questions are appreciated"
+          required
+        />
       </Form.Group>
-      <Button type='submit' onClick={handleFormSubmit} variant="primary">Submit</Button>
+      <Button type="submit" onClick={handleFormSubmit} variant="primary">
+        Submit
+      </Button>
       {errorMessage && (
-      <div>
-      <p className='error-text'>{errorMessage}</p>
-      </div>
-    )}
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </Form>
-
   );
-
-};
-
-
+}
 
 export default Contact;
