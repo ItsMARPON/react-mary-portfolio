@@ -6,6 +6,7 @@ import img4 from "../assets/images/nosql-socialnetwork-mongodbusers2.png";
 import img6 from "../assets/images/cs-regex-github-gist1.png";
 import img8 from "../assets/images/module12-cms-intro.png";
 import img9 from "../assets/images/module13-Insomnia1.png";
+import img10 from "../assets/images/mash-start1.png";
 import ProjectItem from "./ProjectItem";
 
 // Creating an array of projects to be iterated through .map()
@@ -46,6 +47,13 @@ const projects = [
     title: "Object-Relational Mapping (ORM) E-Commerce Back End",
     img:  img9 ,
   },
+  {
+    githubUrl: "https://github.com/ItsMARPON/mash-game",
+    id: 259,
+    title: "MASH",
+    img:  img10 ,
+  },
+  
 ];
 
 // Use .map to iterate through projects
