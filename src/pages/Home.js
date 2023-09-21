@@ -24,10 +24,12 @@ function Home() {
           scripts and with testing the functional aspects of the new system. It
           was during this time, that I discovered a passion for working on
           technical issues and aiding in the solution and implemenation of the
-          upgrade. Knowing that I had a real passion for the technology side, I
-          enrolled into the University of Minnesota Full-stack Web Development
-          Bootcamp. Once I finish the bootcamp, I hope to have a strong
-          foundation for beginning a career in web development.
+          upgrade. My passion for technology, led me to enroll into the University
+          of Minnesota Full-stack Web Development Bootcamp. 
+          <br />
+            Armed with proficiency in numerous technologies including JavaScript,
+            Node, SQL, MongoDB, and React, I can succeed in the tech world.
+            <br />
         </p>
       </div>
     </div>
