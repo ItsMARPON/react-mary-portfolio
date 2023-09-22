@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-mary-portfolio/static/css/main.3595facf.css",
-    "main.js": "/react-mary-portfolio/static/js/main.f6ce731f.js",
+    "main.js": "/react-mary-portfolio/static/js/main.247fdfa4.js",
     "static/js/787.83d46a80.chunk.js": "/react-mary-portfolio/static/js/787.83d46a80.chunk.js",
     "static/media/sevenWonders1.png": "/react-mary-portfolio/static/media/sevenWonders1.7643b553e7eab92a06b1.png",
     "static/media/module13-Insomnia1.png": "/react-mary-portfolio/static/media/module13-Insomnia1.d6dbb8cf72269a5b44d5.png",
@@ -13,11 +13,11 @@
     "static/media/nosql-socialnetwork-mongodbusers2.png": "/react-mary-portfolio/static/media/nosql-socialnetwork-mongodbusers2.f9fab7779750aaf96f53.png",
     "index.html": "/react-mary-portfolio/index.html",
     "main.3595facf.css.map": "/react-mary-portfolio/static/css/main.3595facf.css.map",
-    "main.f6ce731f.js.map": "/react-mary-portfolio/static/js/main.f6ce731f.js.map",
+    "main.247fdfa4.js.map": "/react-mary-portfolio/static/js/main.247fdfa4.js.map",
     "787.83d46a80.chunk.js.map": "/react-mary-portfolio/static/js/787.83d46a80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3595facf.css",
-    "static/js/main.f6ce731f.js"
+    "static/js/main.247fdfa4.js"
   ]
 }
