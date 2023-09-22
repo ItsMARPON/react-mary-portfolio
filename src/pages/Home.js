@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../assets/images/profile.png";
+import pic from "../assets/images/profile.jpg";
 
 function Home() {
   return (
@@ -24,12 +24,12 @@ function Home() {
           scripts and with testing the functional aspects of the new system. It
           was during this time, that I discovered a passion for working on
           technical issues and aiding in the solution and implemenation of the
-          upgrade. My passion for technology, led me to enroll into the University
-          of Minnesota Full-stack Web Development Bootcamp. 
+          upgrade. My passion for technology, led me to enroll into the
+          University of Minnesota Full-stack Web Development Bootcamp.
           <br />
-            Armed with proficiency in numerous technologies including JavaScript,
-            Node, SQL, MongoDB, and React, I can succeed in the tech world.
-            <br />
+          Armed with proficiency in numerous technologies including JavaScript,
+          Node, SQL, MongoDB, and React, I can succeed in the tech world.
+          <br />
         </p>
       </div>
     </div>
